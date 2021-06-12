@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\HerancaAreaDeConhecimento\Curso.cs" />
+    <Compile Include="Model\HerancaFaculdade\Faculdade.cs" />
+    <Compile Include="Model\HerancaAreaDeConhecimento\AreaDeConhecimento.cs" />
+    <Compile Include="Model\HerancaPessoa\Aluno.cs" />
+    <Compile Include="Model\HerancaPessoa\Orientador.cs" />
+    <Compile Include="Model\HerancaPessoa\Pessoa.cs" />
+    <Compile Include="Model\PastaTrabalho\Trabalho.cs" />
+    <Compile Include="Model\PastaTrabalho\TrabalhoBase.cs" />
+    <Compile Include="Model\PastaUsuario\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
