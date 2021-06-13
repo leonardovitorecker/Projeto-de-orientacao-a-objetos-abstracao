@@ -50,7 +50,6 @@
     <Compile Include="Model\HerancaPessoa\Orientador.cs" />
     <Compile Include="Model\HerancaPessoa\Pessoa.cs" />
     <Compile Include="Model\PastaTrabalho\Trabalho.cs" />
-    <Compile Include="Model\PastaTrabalho\TrabalhoBase.cs" />
     <Compile Include="Model\PastaUsuario\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

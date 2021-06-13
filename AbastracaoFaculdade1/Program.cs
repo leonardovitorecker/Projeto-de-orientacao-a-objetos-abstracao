@@ -11,20 +11,18 @@ namespace AbastracaoFaculdade1
     {
         public static void Main(string[] args)
         {
-
+            Faculdade f = new Faculdade();
+             f.setCod(1);
+            f.setNome("univel");
+            f.setEstado("parana");
+            f.setCidade("cascavel");
             Trabalho t = new Trabalho();
       
             t.setId(1);
-            t.setFaculdade();
+            t.setFaculdade(f);
+     
             f.setCod(1);
-            f.setNome("univel");
-            f.setEstado("PARANA");
-            f.setCidade("cascavel");
-
-
-          
-
-
+            
             Console.WriteLine($"id :{t.getId()}" +
                               $" faculdade:{t.getFaculdade()} ");
 

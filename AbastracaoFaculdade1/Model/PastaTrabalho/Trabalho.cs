@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AbastracaoFaculdade1.Model
 {
-    public   class Trabalho
+    public class Trabalho
     {
         private long Id;
         private string TituloTrabalho;
@@ -20,7 +20,7 @@ namespace AbastracaoFaculdade1.Model
         private int Score;
         private int QuantidadeDeVotos;
 
-        public  long getId() { return Id; }
+        public long getId() { return Id; }
         public void setId(long Id) { this.Id = Id; }
 
         public string getTituloTrabalho() { return TituloTrabalho; }
@@ -29,9 +29,9 @@ namespace AbastracaoFaculdade1.Model
         public DateTime getDataConclusao() { return DataConclusao; }
         public void setDataConclusao(DateTime DataConclusao) { this.DataConclusao = DataConclusao; }
 
-        public Faculdade  getFaculdade() { return Faculdade; }
+        public Faculdade getFaculdade() { return Faculdade; }
         public  void  setFaculdade(Faculdade Faculdade) { this.Faculdade = Faculdade;  }
-
+         
         public Aluno getAluno() { return Aluno; }
         public void setAluno(Aluno Aluno) { this.Aluno = Aluno; }
         

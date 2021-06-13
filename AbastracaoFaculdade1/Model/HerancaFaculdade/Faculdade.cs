@@ -12,10 +12,8 @@ namespace AbastracaoFaculdade1.Model
         private string Nome;
         private string Estado;
         private string Cidade;
-        private Func<Faculdade> getFaculdade;
-
        
-
+       
         public long getCod() { return Cod; }
         public void setCod(long Cod) { this.Cod = Cod; }
 
