@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbastracaoFaculdade1.Model
 {
-   public abstract class Curso :AreaDeConhecimento
+   public  class Curso :AreaDeConhecimento
     {
         private AreaDeConhecimento AreaDeConhecimento;
         private string TituloCurso;
