@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbastracaoFaculdade1.Model
 {
-    public abstract class Pessoa
+    public  class Pessoa
     {
         private string Nome;
         private DateTime DataNascimento;

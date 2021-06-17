@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbastracaoFaculdade1.Model.PastaUsuario
 {
-   public abstract  class Usuario
+   public  class Usuario
 
     {
         private long Id;
